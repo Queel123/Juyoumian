@@ -1,0 +1,158 @@
+/*文创图片音乐文字排版*/
+#contentText ul li{
+	display: inline;
+	float: left;
+	overflow: hidden;
+	padding: 10px 46px;
+}
+#contentText {
+	width: 1118px;
+	height: 76px;
+	margin: 25px auto 0;
+	position: relative;
+}
+#scrollBar1 {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	z-index: 100;
+}
+#scrollBar2 {
+	position: absolute;
+	top: 50px;
+	left: 132px;
+	z-index: 100;
+}
+#scrollBar3 {
+	position: absolute;
+	top: 50px;
+	left: 265px;
+	z-index: 100;
+}
+/*文创栏*/
+#create {
+	width: 1148px;
+	height: 729px;	
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	position: relative;
+}
+.aImg {
+	position: relative;
+	height: 346px;
+	width: 287px;
+}
+.white {
+	position: absolute;
+	z-index: 1;
+	top: 238.5px;
+	left: 5px;
+}
+.mark {
+	position: absolute;
+	z-index: 2;
+}
+.mark1{
+	top: 300px;
+	left: 240px;
+}
+.mark2{
+	top: 680px;
+	left: 240px;
+}
+/*文创文字块*/
+.createText {
+	position:absolute;
+	z-index:2;
+	top: 250px;
+	left: 30px;
+}
+/*图片栏*/
+#picture {
+	width: 1241px;
+	height: 783px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	position: relative;
+	margin-bottom: 50px;
+}
+.bImg {
+	position: relative;
+	height: 250px;
+}
+
+#p1 {
+	width: 807px;
+	height: 250px;
+}
+#p3 {
+	width: 350px;
+	height: 250px;
+}
+#p4 {
+	width: 350px;
+	height: 250px;
+}
+#p5 {
+	width: 500px;
+	height: 250px;
+}
+#p6 {
+	width: 610px;
+	height: 250px;
+}
+#p7 {
+	width: 610px;
+	height: 250px;
+}
+
+
+/*翻页排版*/
+#contentPage {
+	width: 1118px;
+	margin: 0 auto;
+}
+#contentPage ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+#contentPage ul li {
+	padding: 5px;
+}
+/*隐藏图片*/
+#box {
+	position:absolute;
+	z-index:4;
+}
+/*隐藏图片*/
+#close {
+	position:absolute;
+	z-index:4;
+	top:0px;
+	right:0px;
+}
+/*隐藏的灰色背景*/
+#greybackground {
+	position: absolute;
+
+}
+/*音乐栏*/
+#music {
+	width: 1138px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+

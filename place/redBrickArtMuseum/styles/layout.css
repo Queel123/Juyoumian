@@ -1,0 +1,95 @@
+
+body {
+    background-image: url(../images/backgroundImage.png);
+    background-repeat: no-repeat;
+    background-position: 50% -35px;
+    background-size: 100%;
+}
+.content {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+/*设置背景
+#content {
+    background-image: url(../images/backgroundImage.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0px;
+    width: 100%;
+    overflow: hidden;
+}
+/*设置标题图片的容器*/
+#titleContainer {
+    background-color: white;
+    width: 1118px;
+
+    border-style: outset;
+    border-width: 0px;
+    display: flex;
+    flex-flow: row;
+    /*position: relative;
+    top: 45px;*/
+    margin-top: 45px;
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+
+}
+#rightContainer {
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-right: 16px;
+    overflow: hidden;
+}
+/*设置分享收藏部分的容器*/
+#subTitle {
+    position: relative;         /*很关键！解决了重叠的问题！*/
+    background-color: white;
+    margin: 0 auto;
+    width: 1101px;
+    height: 68px;
+    border-style: outset;
+    border-width: 1px;
+    display: flex;              /*flex容器*/
+    align-items: center;        /*flex容器设置*/
+    padding-left: 15px;
+    clear: both;
+}
+#star {
+    padding-left: 15px;
+}
+
+#joinIn {
+    background-image: url(../images/joinIn.png);
+    width: 345px;
+    height: 49px;
+    position: relative;
+    left: 675px;
+    line-height: 49px;     /*a垂直居中*/
+    text-align: center;     /*a水平居中*/
+}
+
+
+/*设置详细图片的容器*/
+#mainContainer {
+    margin: 0 auto;
+    margin-top: 28px;
+    width: 1120px;
+    display: flex;
+    align-items: flex-start;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/*设置加载小圈的容器*/
+#loading {
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+#loadingLogo {
+    display: block;
+    margin: 0 auto;
+
+}

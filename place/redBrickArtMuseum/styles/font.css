@@ -1,0 +1,22 @@
+a:hover {
+	text-decoration: none;
+}
+#rightContainer {
+    font-family: Pingfang;
+    font-size: 14px;
+}
+#placeAd {
+
+}
+#placeName {
+    font-weight: bold;
+    font-size: 24px;
+}
+#placeDetails {
+    font-family: MFLangSong;  /*还要修改*/
+    font-weight: bold;
+}
+#joinIn {
+    font-family: Pingfang;
+    font-size: 22px;
+}

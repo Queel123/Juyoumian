@@ -1,0 +1,33 @@
+#activityTitle {
+    color: #282c35;
+	text-decoration:none;
+	background-color:#e6e9ec;
+}
+#pop_activity_text {
+	color: #626262;
+}
+#classSearchText {
+	color: #626262;
+}
+#class01 {
+    color: white;
+}
+#class02 {
+    color: white;
+}
+#class03 {
+    color: white;
+}
+#class04 {
+    color: white;
+}
+
+.activityImageTextTime {
+    color: black;
+}
+.activityImageTextName {
+	color: black;
+}
+.activityImageTextPlace{
+    color: black;
+}

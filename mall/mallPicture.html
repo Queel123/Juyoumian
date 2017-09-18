@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>聚有面儿</title>
+    <link rel="stylesheet" media="screen" href="../template/styles/main.css" />
+	<link rel="stylesheet" media="screen" href="styles/mall.css" />
+	<link rel="stylesheet" media="screen" href="styles/picture.css" />
+</head>
+<body>
+	<!--网页头部-->
+	<div id="header">
+		<div class="contWidth" id="headerContent">
+			<!--logo-->
+			<a href="../index/index.html" class="logo" id="logo"><img src="../template/images/logo.gif" alt="聚有面儿"/></a>
+			<!--导航栏-->
+			<!--这里的元素倒着排列因为float:right 一个个向右浮动过去 最里面的需要先过去-->
+			<a href="#"><img src="../template/images/User.png" class="navImg" id="navUser" alt="User"/></a>
+			<a href="#"><img src="../template/images/shop.png" class="navImg" id="navShop" alt="Shop"/></a>
+			<ul class="nav" id="navText">
+				<li><a href="../mall/mall.html" id="mallTitle">商城</a></li>
+				<li><a href="../easter_egg/easter_egg.html" id="easter_eggTitle">彩蛋</a></li>
+				<li><a href="../activity/activity.html" id="activityTitle">活动</a></li>					
+				<li><a href="../place/place.html" id="placeTitle">地点</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--网页内容-->
+	<div id="content">
+		<!--选择栏-->
+		<div id="contentText">
+			<ul>
+				<li><a href="../mall/mallCreate.html" id="createText">文创</a></li>
+				<li><a href="../mall/mallPicture.html" id="pictureText">图片</a></li>
+				<li><a href="../mall/mallMusic.html" id="musicText">音乐</a></li>
+			</ul>
+			<img src="images/矩形 3.png" id="scrollBar1" alt="滚动条"/>
+			<img src="images/矩形 3.png" id="scrollBar2" alt="滚动条"/>
+			<img src="images/矩形 3.png" id="scrollBar3" alt="滚动条"/>
+		</div>
+		<!--图片栏-->
+		<div id="picture">
+			<div class="bImg">
+				<img src="images/商城图片1.png" class="createImg" id="p1" alt="来人抱枕"/>
+			</div>
+			<div class="bImg">
+				<img src="images/商城图片2.png" class="createImg" id="p2"  alt="御用T恤"/>
+			</div>
+			<div class="bImg">
+				<img src="images/商城图片3.png" class="createImg" id="p3" alt="京剧脸谱"/>
+			</div>
+			<div class="bImg">
+				<img src="images/商城图片4.png" class="createImg" id="p4" alt="兔儿爷"/>
+			</div>
+			<div class="bImg">
+				<img src="images/商城图片5.png" class="createImg" id="p5" alt="福袋"/>
+			</div>
+			<div class="bImg">
+				<img src="images/商城图片6.png" class="createImg" id="p6" alt="稻香村京八件"/>
+			</div>
+			<div class="bImg">
+				<img src="images/商城图片7.png" class="createImg" id="p7" alt="朕在故宫"/>
+			</div>
+		</div>
+		<!--翻页-->
+		<div id="contentPage">
+			<ul>
+				<li><a href="#" id="first">1</a></li>
+				<li><a href="#" id="second">2</a></li>
+				<li><a href="#" id="third">3</a></li>
+			</ul>
+		</div>
+		<!--隐藏关闭按钮-->
+		<div id="close">
+			<img src="images/关闭按钮.png" alt="购物车">
+		</div>
+	</div>
+	<!--网页底部-->
+	<div id="footer">
+		<div id="footCenter">
+			<img src="../template/images/logo2.png" id="footLogo" alt="logo">
+			<p id="footText1">Meet with Culture!</p>
+			<p id="footText2">从这里开始让你的聚会更有文化范儿。</p>
+			<p id="copyright">Copyright @2017 juyoumian.com All rights reserved</p>
+			<div id="share">
+				<a href="#"><img src="../template/images/QQ.png" class="footShare" alt="QQ"/></a>
+				<a href="#"><img src="../template/images/weixin.png" class="footShare" alt="微信"/></a>
+				<a href="#"><img src="../template/images/WEIBO.png" class="footShare" alt="微博"/></a>
+			</div>
+		</div>
+	</div>
+	<script src="../template/scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
+	<script src="../template/scripts/global.js"></script>
+	<script src="scripts/mall.js"></script>
+</body>
+</html>
+
+

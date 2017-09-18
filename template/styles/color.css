@@ -1,0 +1,38 @@
+/*导航栏字体*/
+.contWidth ul li a { 
+	color: #000;
+}
+/*导航栏阴影*/
+/*div.contWidth {
+   box-shadow: 0px 3px 5px #888888;
+ }*/
+/*link visited hover active*/
+/*对应着未访问 已访问 鼠标在链接上 以及激活链接*/
+.contWidth .nav a:link {
+	color: #282c35;
+}
+.contWidth .nav a:visited {
+    color: #282c35;
+}
+.contWidth .nav a:hover {
+    color: #282c35;
+	text-decoration:none;
+	background-color:#e6e9ec;
+}
+.contWidth .nav a:active {
+    color: #ffffff;
+	text-decoration:none;
+	background-color:#e6e9ec;
+}
+
+/*网页底部*/
+#footText1 {
+	color: #fff;
+}
+#footText2 {
+	color: #fff;
+}
+#copyright {
+	color: #fff;
+	opacity: 0.5;
+}

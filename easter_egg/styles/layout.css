@@ -1,0 +1,43 @@
+/*内容版块*/
+#background {
+	width: 1440px;
+	height:1280px;
+	margin: 0 auto;
+	position: relative;	
+	background-image: url(../images/1级背景2.png);
+}
+/*坐标定位*/
+.icon {
+	position: absolute;
+}
+#icon1 {
+	top:182px;/*276 601*/
+	left:715px;
+}
+#icon2 {
+	top:394px;
+	left:439px;
+}
+#icon3 {
+	top:569px;
+	left:642px;
+}
+#icon4 {
+	top:251px;
+	left:830px;
+}
+#icon5 {
+	top:211px;
+	left:992px;	
+}
+#icon6 {
+	top:361px;
+	left:949px;
+}
+
+/*底部与背景相接*/
+#footer {
+	margin-top: 0px;
+}
+
+

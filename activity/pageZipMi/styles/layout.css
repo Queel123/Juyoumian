@@ -1,0 +1,90 @@
+body {
+    background-image: url(../images/backgroundImage.png);
+    background-repeat: no-repeat;
+    background-position: 50% -190px;
+    background-size: 100%;
+}
+/*设置背景
+#content {
+    background-image: url(../images/backgroundImage.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0px;
+    width: 100%;
+    overflow: hidden;
+    /*height: 100%;
+/*设置标题图片的容器*/
+#titleContainer {
+    background-color: white;
+    width: 1118px;
+    border-style: outset;
+    border-width: 0px;
+    display: flex;
+    flex-flow: row;
+    margin-top: 45px;
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*设置标题图片右边部分*/
+#rightContainer {
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+/*设置分享收藏部分的容器*/
+#subTitle {
+    position: relative;         /*很关键！解决了重叠的问题！*/
+    background-color: white;
+    margin: 0 auto;
+    width: 1103px;
+    height: 68px;
+    border-style: outset;
+    border-width: 1px;
+    display: flex;              /*flex容器*/
+    align-items: center;        /*flex容器设置*/
+    padding-left: 15px;
+    clear: both;
+
+}
+#star {
+    padding-left: 15px;
+}
+#joinIn{
+    background-image: url(../images/joinIn.png);
+    width: 345px;
+    height: 49px;
+    position: relative;
+    left: 675px;
+    line-height: 49px;     /*a垂直居中*/
+    text-align: center;     /*a水平居中*/
+}
+/*设置正文部分的容器*/
+#mainContainer {
+    background-color: white;
+    margin: auto;
+    width: 1088px;
+    padding-left: 30px;
+    padding-top: 46px;
+    border-style: outset;
+    border-width: 1px;
+    display: flex;
+}
+#mainText {
+    width: 730px;
+}
+#textAuthor {
+    text-align: right;
+}
+#details {
+    width: 390px;
+    padding-left: 30px;
+}
+/*设置底部猜您喜欢*/
+#guessLikeText {
+    text-align: center;
+}
+#guessLikeContainer {
+    width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}

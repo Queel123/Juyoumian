@@ -1,0 +1,45 @@
+#mallTitle {
+    color: #282c35;
+	text-decoration:none;
+	background-color:#e6e9ec;
+}
+/*文创图片音乐文字*/
+#contentText ul li {
+	color: #282c35;
+}
+#contentText ul li a:link {
+	color: #282c35;
+	text-decoration: none;
+}
+#contentText ul li a:visited {
+	color: #282c35;
+}
+#contentText ul li a:hover {
+	color: #282c35;
+}
+#contentText ul li a:active {
+	color: #282c35;
+}
+
+/*文创栏文字*/
+/*标题*/
+.createName {
+	color: #282c35;	
+}
+/*价钱*/
+.createPrice {
+	color: #a0a0a0;
+}
+/*页码*/
+#contentPage ul li a:link {
+	color: #282c35;
+}
+#contentPage ul li a:visited {
+	color: #282c35;	
+}
+#contentPage ul li a:hover {
+	color: #282c35;
+}
+#contentPage ul li a:active {
+	color: #282c35;
+}

@@ -1,0 +1,33 @@
+a:hover {
+	text-decoration: none;
+}
+/*设置标题图片右边部分文字*/
+#rightContainer {
+    font-family: Pingfang;
+    font-size: 22px;
+}
+#date1 {
+    font-weight: bold;
+}
+#date2 {
+    font-weight: bold;
+}
+#titleText {
+    font-weight: bold;
+}
+#joinIn {
+    font-family: Pingfang;
+    font-size: 22px;
+}
+#mainContainer {
+    font-family: Pingfang;
+    font-size: 20px;
+}
+.detailsTitle {
+    font-weight: bold;
+}
+#guessLikeText {
+    font-family: Pingfang;
+    font-size: 32px;
+}
+

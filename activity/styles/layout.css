@@ -1,0 +1,243 @@
+/*设置背景图片*/
+#content {
+	background-image: url(../images/backgroundImage.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0 auto;
+	background-position: 50% 0px;
+}
+#spaceArea {
+	height: 315px;
+}
+/*搜索部分整体*/
+#search {
+	width: 1050px;
+	height: 210px;
+	text-align: center;
+	margin: 0px auto;
+	background-color: white;
+	border-style: outset;
+	border-width: 1px;
+
+}
+#searchMain {
+
+}
+a:hover {
+	text-decoration: none;
+}
+input {
+	width: 266px;
+	height: 48.5px;
+	padding-left: 17px;
+	margin-top: 1px;
+
+}
+button {
+	border: none;
+	outline: none;
+	height: 52px;
+	width: 208px;
+	cursor: pointer;
+	background-color: black;
+	position: relative;
+	left: -28px;
+	bottom: 1px;
+}
+button:before {
+	font-family: Pingfang;
+	content: "搜索";
+	color: white;
+}
+select {
+	/*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+	/*很关键：将默认的select选择框样式清除*/
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	/*将背景改为透明*/
+	background:transparent;
+	/*加padding防止文字覆盖*/
+	padding-right: 20px;
+	background: url("../images/下拉.png") no-repeat scroll right center transparent;
+}
+#searchPlace {
+
+	width: 209px;
+	height: 53px;
+	border-style: solid;
+	border-width: thin;
+	border-color: #AAAAAA;
+	border-left: none;
+	padding-left: 53px;
+	padding-right: 53px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	position: relative;
+	left: -11px;
+
+}
+#searchDate {
+	width: 206px;
+	height: 52px;
+	padding: 0 0 0 50px;
+	position: relative;
+	left: -20px;
+
+}
+
+/*热门活动*/
+.pop_activity {
+	width: 1440px;  /*1440?*/
+
+	text-align: center;
+	margin: 0px auto;
+}
+/*活动图片外框*/
+.activity_box {
+	width: 1200px;
+	height: 1000px;
+	padding: 0px;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 70px;
+	left: 70px;
+}
+/*活动图片排列*/
+.activity_image {
+	float: left;
+	margin: 20px 18px;
+	/*padding*/
+	display: inline;
+}
+#activityBack01 {
+	width: 360px;
+	height: 300px;
+	background-image: url(../images/image01.png);
+}
+#activityBack02 {
+	width: 360px;
+	height: 300px;
+	background-image: url(../images/image02.png);
+}
+#activityBack03 {
+	width: 360px;
+	height: 300px;
+	background-image: url(../images/image03.png);
+}
+#activityBack04 {
+	width: 360px;
+	height: 300px;
+	background-image: url(../images/image04.png);
+}
+#activityBack05 {
+	width: 360px;
+	height: 300px;
+	background-image: url(../images/image05.png);
+}
+#activityBack06 {
+	width: 360px;
+	height: 300px;
+	background-image: url(../images/image06.png);
+}
+#activityBack07 {
+	width: 360px;
+	height: 300px;
+	background-image: url(../images/image07.png);
+}
+#activityBack08 {
+	width: 360px;
+	height: 300px;
+	background-image: url(../images/image08.png);
+}
+#activityBack09 {
+	width: 360px;
+	height: 300px;
+	background-image: url(../images/image09.png);
+}
+/*活动图片上面的白框+文字*/
+.activityImageText {
+	display: block;
+	background-image: url(../images/whiteJu.png);
+	width: 360px;
+	height: 106px;
+	margin-top: 194px;
+	text-align: left;
+	text-decoration: none;
+}
+.activityImageText:hover {
+	text-decoration: none;
+}
+.activityImageTextTime {
+	margin-left: 9px;
+}
+.activityImageTextName {
+	margin-left: 9px;
+	margin-top: 7px;
+}
+.activityImageTextPlace {
+	margin-left: 9px;
+	margin-top: 7px;
+}
+/*活动图片内一个clear 功能不清楚*/
+.clear {
+	clear:both;
+}
+/*“更多”按钮*/
+.getMore {
+	width:	1400px;
+	text-align: center;
+	margin: 0px auto;
+}
+/*分类检索*/
+#classSearchText {
+	width: 1440px;  /*1440?*/
+	text-align: center;
+	margin: 0px auto;
+	padding-bottom: 10px;
+	padding: 40px 0;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+/*分类检索外框*/
+#classSearchBox {
+	width: 1140px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	padding: 0px;
+	margin:0px auto;
+	text-align: center;
+	margin-bottom: -95px;
+}
+#class01 {
+	background-image: url(../images/class01.png);
+	width: 740px;
+	height: 220px;
+	margin: 10px;
+	line-height: 220px;
+}
+#class02 {
+	background-image: url(../images/class02.png);
+	width: 360px;
+	height: 220px;
+	margin: 10px;
+	line-height: 220px;
+}
+#class03 {
+	background-image: url(../images/class03.png);
+	width: 360px;
+	height: 220px;
+	margin: 10px;
+	line-height: 220px;
+}
+#class04 {
+	background-image: url(../images/class04.png);
+	width: 740px;
+	height: 220px;
+	margin: 10px;
+	line-height: 220px;
+}
+/*修改footer结构*/

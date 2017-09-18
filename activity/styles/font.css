@@ -1,0 +1,41 @@
+/* “感兴趣的活动”字体  */
+#search	{
+	font-family: Pingfang;
+}
+#searchText {
+	font-size: 36px;
+}
+#searchMain {
+	font-size: 24px;
+}
+/* “热门活动”字体  */
+#pop_activity_text {
+	font-size: 27px;
+	font-family: Pingfang;
+	padding: 20px 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+#classSearchText {
+	font-size: 27px;
+	font-family: Pingfang;
+
+}
+#classSearchBox {
+	font-family: Pingfang;
+	font-size: 50px;
+}
+/*activity*/
+.activityImageText {
+	font-family: Pingfang;
+	font-size: 12px;
+}
+.activityImageTextTime {
+}
+.activityImageTextName {
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+}
+.activityImageTextPlace{
+}

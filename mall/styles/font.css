@@ -1,0 +1,36 @@
+/*文创图片音乐文字*/
+#contentText ul li{
+	font-family: Pingfang;
+	font-size: 20px;
+}
+#contentText ul li a:hover{
+	font-weight: bold;
+}
+
+
+/*页码*/
+#contentPage ul li {
+	font-family: Pingfang;
+	font-size: 24px;
+}
+#contentPage ul li a:hover {
+	font-weight: bold;
+}
+#first {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/*文创栏文字*/
+/*标题*/
+.createName {
+	font-family: Pingfang;
+	font-weight: bold;
+	font-size: 22px;
+}
+/*价钱*/
+.createPrice {
+	font-size: 18px;
+	font-family: Pingfang;
+	line-height: 20px;
+}

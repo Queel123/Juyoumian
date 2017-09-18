@@ -1,0 +1,25 @@
+/*下拉选择框字体改动*/
+select {
+	font-family: Pingfang;
+	font-size: 190%;
+	font-weight: bold;
+}
+/*地点文字框内字体*/
+/*标题*/
+.textTitle {
+	font-family: Pingfang;
+	font-size: 30px;
+	font-weight: bold;	
+}
+.textMain {
+	font-family: Pingfang;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 20px;
+}
+.textDistance {
+	font-family: Pingfang;
+	font-size: 20px;
+	font-weight: bold;	
+}
+
