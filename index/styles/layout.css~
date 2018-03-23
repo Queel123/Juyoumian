@@ -1,0 +1,96 @@
+/*content*/
+img {
+	display: block;
+}
+.runPicture {
+	width: 100%;
+	margin-bottom: 85px;
+}
+#runPicture1 {
+	width: 100%;
+	
+}
+.place {
+	width: 1138px;
+	height: 313px;
+	margin: 30px auto;
+	position:relative;
+	background-image: url(../images/地点配图.gif);
+}
+.activity {
+	width: 1138px;
+	height: 318px;
+	margin: 30px auto;
+	position:relative;
+	background-image: url(../images/活动配图.gif);
+}
+.creation {
+	width: 1138px;
+	height: 318px;
+	margin: 30px auto;
+	position:relative;
+	background-image: url(../images/文创配图.gif);
+}
+.announcement {
+	width: 1124px;
+	height: 300px;
+	margin: 30px auto;
+	position:relative;
+	box-shadow: 0px 3px 5px #888888;
+}
+.picture {
+	margin-top:	5px;
+	margin-left:6px;
+}
+.pictureEx {
+	margin-top:	0px;
+	margin-left:0px;
+}
+#announcement {
+	float: right;
+	margin-top: 10px;
+	margin-right: 40px;
+}
+#placeText {
+	z-index: 100;
+	position: absolute;
+	top: 190px;
+	left: 160px;
+}
+#activityText {
+	z-index: 100;
+	position: absolute;
+	top: 207px;
+	left: 160px;
+}
+#creationText {
+	z-index: 100;
+	position: absolute;
+	top: 205px;
+	left: 160px;
+}
+#announcementText {
+	z-index: 100;
+	position: absolute;
+	top: 200px;
+	left: 125px;
+}
+.cool {
+	display: inline;
+}
+#aEgg {
+	width: 400px;
+	height: 301px;
+}
+.footShare {
+	display: inline;
+}
+#realEgg {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	z-index: 2;
+	top: -30px;
+	left: 50px;
+}
+

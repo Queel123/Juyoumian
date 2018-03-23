@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>聚有面儿</title>
-	<link rel="shortcut icon" href="../template/favicon.ico"/>
+	<link rel="shortcut icon" href="../template/favicon.ico"/>	
     <link rel="stylesheet" media="screen" href="../template/styles/main.css" />
 	<link rel="stylesheet" media="screen" href="styles/index.css" />
 </head>
@@ -29,7 +29,7 @@
 	<!--网页内容-->
 	<div id="content">
 		<div id="light" class="white_content">
-		  <img src="../template/images/cancel.png" alt="" width="20" id="cancel"/>
+		  <img src="../template/images/cancel.png" alt="" width="20" id="cancel"/> 
   	      <img src="../template/images/logo2.png" alt="" width="1557" height="1930" id="signlogo"/>
    	      <div id="slogan">将城市文化融入您的聚会</div>
 	      <div id="labal">
@@ -72,7 +72,7 @@
           </div>
         </div>
       <div id="fade" class="black_overlay"></div>
-
+       
         <div class="area">
             <a id="perv" class="prevBtn qq" href="javascript:void(0)"></a>
             <a id="next" class="nextBtn qq" href="javascript:void(0)"></a>

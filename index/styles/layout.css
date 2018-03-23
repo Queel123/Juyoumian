@@ -1,35 +1,131 @@
 /*content*/
+body {
+}
 img {
 	display: block;
+	top: auto;
+}
+
+/*轮播效果部分*/
+a {
+	color:#333;
+	text-decoration:none;
+}
+a:hover {
+	color:#c00;
+	text-decoration:underline;
+
+}
+#content {
+	width: 100%;
+	margin: 0 auto;
+}
+.area {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	cursor: pointer;
+}
+.js {
+	position: relative;
+	width: 100%;
+	height: 720px;
+	margin:0 auto;
+	text-align: center;
+	overflow: hidden;
 }
 .runPicture {
 	width: 100%;
-	margin-bottom: 85px;
 }
-#runPicture1 {
-	width: 100%;
-	
+.prevBtn {
+	background: url(../images/btn01h.jpg) no-repeat;
+	height: 47px;
+	width: 32px;
+	display: block;
+	position: absolute;
+	top: 50%;
+}
+.prevBtn:hover {
+	background: url(../images/btn01.jpg) no-repeat;
+}
+.nextBtn {
+	background: url(../images/btn02h.jpg) no-repeat;
+	height: 47px;
+	width: 32px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 0;
+}
+.nextBtn:hover {
+	background: url(../images/btn02.jpg) no-repeat;
+}
+.imgSelected {
+	background: url(../images/jsNav.png) no-repeat;
+}
+.bg {
+	width:100%; padding-top:1px;
+	background:url(../images/bg01.png) no-repeat;
+	_background:none;/*IE6*/
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="images/bg01.png");/*IE6*/
+	height:34px;
+	left:0;
+	FONT-WEIGHT: bold;
+	top:280px;
+	position:absolute;
+}
+.jsNav {
+	position:absolute;
+	left:45%;
+	top:93%;
+}
+.jsNav a {
+	width:40px; font-size:14px;
+	margin-right:6px;
+	display:inline;
+	height:33px;
+	line-height:33px;
+	float:left;
+	text-align:center;
+	color:#fff;
+}
+.jsNav a:hover {
+	background:url(../images/bg01.gif) no-repeat;
+	color: #FFD50F;
+	text-decoration:none;
+}
+.jsNav .imgSelected {
+background:url(../images/bg01.gif) no-repeat;
+color: #FFD50F;
+}
+.qq{
+display:none;
+z-index:200;
+}
+
+#mainMenu {
+	position: relative;
 }
 .place {
 	width: 1138px;
 	height: 313px;
 	margin: 30px auto;
 	position:relative;
-	background-image: url(../images/地点配图.gif);
+	background-image: url(../images/locationimg.png);
 }
 .activity {
 	width: 1138px;
 	height: 318px;
 	margin: 30px auto;
 	position:relative;
-	background-image: url(../images/活动配图.gif);
+	background-image: url(../images/activityimg.png);
 }
 .creation {
 	width: 1138px;
 	height: 318px;
 	margin: 30px auto;
 	position:relative;
-	background-image: url(../images/文创配图.gif);
+	background-image: url(../images/productimg.png);
 }
 .announcement {
 	width: 1124px;
@@ -93,4 +189,3 @@ img {
 	top: -30px;
 	left: 55px;
 }
-
