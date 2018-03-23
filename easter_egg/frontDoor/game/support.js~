@@ -43,11 +43,11 @@ function get_number_background_img(number) {
         case 64: return "url(images/picture6.png)"; break;
         case 128: return "url(images/picture7.png)"; break;
         case 256: return "url(images/picture8.png)"; break;
-        case 512: return "url(images/picture9.png)"; break;
-        case 1024: return "url(images/picture10.png)"; break;
-        case 2048: return "url(images/picture11.png)"; break;
-        case 4096: return "url(images/picture12.png)"; break;
-        case 8192: return "url(images/picture13.png)"; break;
+        case 512: return "url(images/picture9.jpg)"; break;
+        case 1024: return "url(images/picture10.jpg)"; break;
+        case 2048: return "url(images/picture11.jpg)"; break;
+        case 4096: return "url(images/picture12.jpg)"; break;
+        case 8192: return "url(images/picture13.jpg)"; break;
     }
     return 'black';
 }

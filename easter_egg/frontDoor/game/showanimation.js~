@@ -4,23 +4,8 @@ function show_number_with_animation(i, j, rand_number) {
     var number_cell = $('#number_cell_' + i + '_' + j);
     number_cell.css('background-color', get_number_background_color(rand_number));
     number_cell.css('color', get_number_color(rand_number));
-    number_cell.css('background-image', get_number_background_img(rand_number));
-	if (rand_number==2) {
-		$("#shadow_cell_0_0").css('background-image', get_number_background_img(rand_number));
-	}
-	else {
-	}
-	if (rand_number==4) {
-		$("#shadow_cell_0_1").css('background-image', get_number_background_img(rand_number));
-	}
-	else {
-	}
-	if (rand_number==8) {
-		$("#shadow_cell_0_2").css('background-image', get_number_background_img(rand_number));
-	}
-	else {
-	}	
-	/* number_cell.text(rand_number);*/
+    number_cell.css('background-image', get_number_background_img(rand_number));	
+   /* number_cell.text(rand_number);*/
     number_cell.animate({
         width: cell_side_length,
         height: cell_side_length,

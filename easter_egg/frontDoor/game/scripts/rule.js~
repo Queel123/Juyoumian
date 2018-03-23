@@ -1,0 +1,17 @@
+	$("#click_button").click(function() {
+		mytop = $(document).scrollTop();
+
+		//计算弹出层的left
+	　	boxwidth = $("#game").width();
+
+		boxheight = $("#game").height();
+		//计算弹出层的top
+		getPosLeft = (screenwidth - boxwidth)/2;
+		getPosTop = (screenheight - boxheight)/2;
+		//css定位弹出层
+		$("#game").css({"left":getPosLeft,"top":getPosTop+mytop});
+	　	//追加一个层，使背景变灰
+		$("#game").fadeIn();　	　		
+		return false;
+	
+	});

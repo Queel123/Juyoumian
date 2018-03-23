@@ -1,5 +1,6 @@
 $(document).ready(function(){
-　　var screenwidth,screenheight,footheight,headheight,realheight;
+	"use strict";
+　　var screenwidth,screenheight,footheight,headheight,realheight,multiple;
 　　screenwidth = $(window).width();
 　　screenheight = $(window).height();
 	footheight = $("#footer").height();

@@ -1,3 +1,6 @@
+body {
+	zoom: 80%;
+|
 
 header {
     display: block;

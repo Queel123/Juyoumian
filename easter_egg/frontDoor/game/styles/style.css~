@@ -86,6 +86,7 @@ header p {
 	background-color: #dbd6c8;
 	margin: 0 auto;	
 	position: relative;
+	top: 250px;
 }
 #kite_container {
 	position: relative;
@@ -114,7 +115,12 @@ header p {
 	top: 70px;
 }
 
-
+#container {
+	width: 600px;
+	height: 800px;
+	position: relative;
+	margin: 0 auto;
+}
 /*
 用键盘控制方向来移动小方块，两个图案相同的小方块相撞时就会出现沙燕风筝下一个制作工序的图片！挑战解锁一个最精致的风筝吧！
 font-size: 18px; inline-height: 30px;

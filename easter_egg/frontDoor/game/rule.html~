@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>聚有面儿</title>
+    <link rel="stylesheet" href="styles\style.css"/>
+    <link rel="stylesheet" href="..\..\..\template\styles\font.css"/>
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="scripts\rule.js"></script>	
+</head>
+<body>
+	<div id="container">
+    <div id="rule_container">
+		<div id="kite_container">
+			<img src="images/kite.png" id="kite	" alt="风筝"/>
+		</div>
+		<div id="text_container">
+			<p id="rule_text">用键盘控制方向来移动小方块，两个图案相同的小方块相撞时就会出现沙燕风筝下一个制作工序的图片！挑战解锁一个最精致的风筝吧！</p>
+		</div>
+		<a href="game.html"><div id="button_container">
+			</div></a>
+    </div>
+	</div>
+</body>
+</html>

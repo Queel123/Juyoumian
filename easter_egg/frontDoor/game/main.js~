@@ -386,55 +386,18 @@ function gameover() {
 
 //达到某个程度时解锁图片
 function unlock() {
+	var flag = 0;
     for (var i = 0; i < 4; i++) {
         for (var j = 0; j < 4; j++) {	
 			if (board[i][j]==2) {
 				$("#shadow_cell_0_0").css('background-image', get_number_background_img(board[i][j]));
+				flag++;
 			}
 			else {
 			}
 			if (board[i][j]==4) {
 				$("#shadow_cell_0_1").css('background-image', get_number_background_img(board[i][j]));
-			}
-			else {
-			}
-			if (board[i][j]==8) {
-				$("#shadow_cell_0_2").css('background-image', get_number_background_img(board[i][j]));
-			}
-			else {
-			}
-			if (board[i][j]==16) {
-				$("#shadow_cell_0_3").css('background-image', get_number_background_img(board[i][j]));
-			}
-			else {
-			}
-			if (board[i][j]==32) {
-				$("#shadow_cell_0_4").css('background-image', get_number_background_img(board[i][j]));
-			}
-			else {
-			}
-			if (board[i][j]==64) {
-				$("#shadow_cell_1_0").css('background-image', get_number_background_img(board[i][j]));
-			}
-			else {
-			}	
-			if (board[i][j]==128) {
-				$("#shadow_cell_1_1").css('background-image', get_number_background_img(board[i][j]));
-			}
-			else {
-			}
-			if (board[i][j]==256) {
-				$("#shadow_cell_1_2").css('background-image', get_number_background_img(board[i][j]));
-			}
-			else {
-			}
-			if (board[i][j]==512) {
-				$("#shadow_cell_1_3").css('background-image', get_number_background_img(board[i][j]));
-			}
-			else {
-			}
-			if (board[i][j]==1024) {
-				$("#shadow_cell_1_4").css('background-image', get_number_background_img(board[i][j]));
+				flag++;
 			}
 			else {
 			}			

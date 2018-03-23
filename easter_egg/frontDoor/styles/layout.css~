@@ -10,7 +10,6 @@
 	margin: 0 auto;
 	position: relative;
 	background-image: url("../images/2级背景.png");
-	background-repeat: no-repeat;
 
 }
 /*坐标定位*/

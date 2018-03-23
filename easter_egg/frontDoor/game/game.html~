@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <title>聚有面儿</title>
-	<link rel="shortcut icon" href="../../../template/favicon.ico"/>	
     <link rel="stylesheet" href="styles\style.css"/>
     <script type="text/javascript" src="scripts\jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="scripts\main.js"></script>

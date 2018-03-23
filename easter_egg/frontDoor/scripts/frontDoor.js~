@@ -86,7 +86,7 @@ $(function(){
 
 　　//点击链接弹出窗口
 
-　　$(".iconfuck").click(function() {
+　　$(".icon").click(function() {
 　　	//获取滚动条距顶部的偏移
 		
 		mytop = $(document).scrollTop();
