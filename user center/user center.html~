@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>聚有面儿</title>
+    <link rel="stylesheet" media="screen" href="../template/styles/main.css" />
+</head>
+<body>
+	<!--网页头部-->
+	<!--网页头部-->
+	<div id="header">
+		<div class="contWidth" id="headerContent">
+			<!--logo-->
+			<a href="../index/index.html" class="logo" id="logo"><img src="../template/images/logo.gif" alt="聚有面儿"/></a>
+			<!--导航栏-->
+			<!--这里的元素倒着排列因为float:right 一个个向右浮动过去 最里面的需要先过去-->
+			<a href="../user center/user center.html"><img src="../template/images/User.png" class="navImg" id="navUser" alt="User"/></a>
+			<a href="#"><img src="../template/images/shop.png" class="navImg" id="navShop" alt="Shop"/></a>
+				<ul class="nav" id="navText">
+					<li><a href="../mall/mall.html"id="mallTitle">商城</a></li>
+					<li><a href="../easter_egg/easter_egg.html" id="easter_eggTitle">彩蛋</a></li>
+					<li><a href="../activity/activity.html" id="activityTitle">活动</a></li>
+					<li><a href="../place/place.html" id="placeTitle">地点</a></li>
+				</ul>
+		</div>
+	</div>
+	
+	<div style="margin: 0 auto; text-align:center;">
+	<img src="user center.png"/>
+	</div>
+	
+	<!--网页内容-->
+	<!--<div id="content">
+		<div id="light" class="white_content">
+		  <img src="聚有面儿 2.0/聚有面儿/template/images/cancel.png" alt="" width="20" id="cancel"/> 
+  	      <img src="聚有面儿 2.0/聚有面儿/template/images/logo2.png" alt="" width="1557" height="1930" id="signlogo"/>
+   	      <div id="slogan">将城市文化融入您的聚会</div>
+	      <div id="labal">
+				<div id="signup">注册
+					<div id="updiv"></div>
+				</div>
+				<div id="signin">登录
+					<div id="indiv"></div>
+				</div>
+       	  </div>
+          <div id="upinput">
+          	    <div class="name input-wrapper">
+				<input required type="text" name="fullname" aria-label="用户名" placeholder="用户名">
+				</div>
+				<div class="email input-wrapper">
+
+				<input required type="text" class="account" name="phone_num" aria-label="邮箱/手机号" placeholder="邮箱/手机号">
+				</div>
+				<div class="input-wrapper">
+				<input required type="password" name="password" aria-label="密码" placeholder="密码（不少于 6 位）" autocomplete="off">
+				</div>
+        		<div id="law">注册即代表您已经同意《用户须知》</div>
+         		<div id="upload">立即注册</div>
+          </div>
+          <div id="ininput">
+				<div class="account">
+				<input required type="text" name="phone_num" aria-label="邮箱/手机号" placeholder="邮箱/手机号">
+				</div>
+				<div class="password">
+				<input required type="password" name="password" aria-label="密码" placeholder="密码" autocomplete="off">
+				</div>
+				<div id="cor">
+					<img src="聚有面儿 2.0/聚有面儿/template/images/qicq.png" alt="" width="23" id="qicq"/> &nbsp;&nbsp;
+					<img src="聚有面儿 2.0/聚有面儿/template/images/微信.png" alt="" width="23" id="weixinn"/>&nbsp;
+					<img src="聚有面儿 2.0/聚有面儿/template/images/微博.png" alt="" width="23" id="weiboo"/>&nbsp;
+					<img src="聚有面儿 2.0/聚有面儿/template/images/facebook.png" alt="" width="23" id="fb"/>
+				</div>
+				<div id="forget">忘记密码</div>
+         		<div id="inload">登录</div>
+          </div>
+        </div>
+      <div id="fade" class="black_overlay"></div>
+       
+        <div class="area">
+            <a id="perv" class="prevBtn qq" href="javascript:void(0)"></a>
+            <a id="next" class="nextBtn qq" href="javascript:void(0)"></a>
+            <div id="js" class="js">
+                <div class="box01">
+                        <img class="runPicture" onclick="location.href='#'" src="聚有面儿 2.0/聚有面儿/index/images/00.jpg">
+                        <img class="runPicture" onclick="location.href='#'" style="DISPLAY: none" src="聚有面儿 2.0/聚有面儿/index/images/01.jpg">
+                        <img class="runPicture" onclick="location.href='#'" style="DISPLAY: none" src="聚有面儿 2.0/聚有面儿/index/images/02.jpg">
+                </div>
+
+                <div id="jsNav" class="jsNav">
+                    <a class="trigger imgSelected" href="javascript:void(0)">1</a>
+    			    <a class="trigger" href="javascript:void(0)">2</a>
+                    <a class="trigger" href="javascript:void(0)">3</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="mainMenu">
+		<a href="聚有面儿 2.0/聚有面儿/place/place.html"><div class="place">
+			<font class="contentText" id="placeText">地点</font>
+			<img class="picture cool" src="聚有面儿 2.0/聚有面儿/index/images/地点.gif" alt="place" />
+		</div></a>
+		<a href="聚有面儿 2.0/聚有面儿/easter_egg/easter_egg.html"><div class="activity">
+			<font class="contentText" id="activityText">彩蛋</font>
+			<img class="picture cool" id="aEgg" src="聚有面儿 2.0/聚有面儿/index/images/黑框.gif" alt="easter_egg"/>
+			<img class="cool" id="realEgg" src="聚有面儿 2.0/聚有面儿/index/images/彩蛋.png" alt="easter_egg">
+		</div></a>
+		<a href="聚有面儿 2.0/聚有面儿/mall/mall.html"><div class="creation">
+			<font class="contentText" id="creationText">文创</font>
+			<img class="picture cool" src="聚有面儿 2.0/聚有面儿/index/images/文创.gif" alt="creation"/>
+		</div></a>
+		<a href="聚有面儿 2.0/聚有面儿/activity/activity.html"><div class="announcement">
+			<font class="contentText" id="announcementText">公告栏</font>
+			<img class="pictureEx cool" src="聚有面儿 2.0/聚有面儿/index/images/公告.gif" alt="announcement"/>
+			<img id="announcement" src="聚有面儿 2.0/聚有面儿/index/images/公告配图.gif" class="cool" alt="announcementWord"/>
+		</div></a>
+    </div>
+	</div>-->
+
+	<!--网页底部-->
+	<div id="footer" style="margin-top:0px;">
+		<div id="footCenter">
+			<img src="../template/images/logo2.png" id="footLogo" alt="logo">
+			<p id="footText1">Meet with Culture!</p>
+			<p id="footText2">从这里开始让你的聚会更有文化范儿。</p>
+			<p id="copyright">Copyright @2017 juyoumian.com All rights reserved</p>
+			<div id="share">
+				<a href="#"><img src="../template/images/QQ.png" class="footShare" alt="QQ"/></a>
+				<a href="#"><img src="../template/images/weixin.png" class="footShare" alt="微信"/></a>
+				<a href="#"><img src="../template/images/WEIBO.png" class="footShare" alt="微博"/></a>
+			</div>
+		</div>
+	</div>
+	<script src="../template/scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
+	<script src="../template/scripts/global.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".area").hover(function(){
+	        $(this).find(".qq").show(100);},
+            function(){
+               $(this).find(".qq").hide(100);
+	          });
+            });
+          </script>
+</body>
+</html>
